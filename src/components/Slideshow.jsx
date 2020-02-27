@@ -13,7 +13,7 @@ export class Slideshow extends Component {
       <Carousel style={slideStyle}>
         <Carousel.Item>
           <img
-            src="/Users/Adam/Desktop/Personal-Site/src/components/A.jpg"
+            src="https://github.com/APikielny/Personal-Site/blob/master/src/components/A.jpg?raw=true"
             alt="image isn't working"
           />
           <Carousel.Caption>
