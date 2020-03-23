@@ -8,7 +8,8 @@ export class Home extends Component {
     return (
       <div>
         <Menu></Menu>
-        <Slideshow></Slideshow>
+        <p>Here I have some text for testing. Lorem ipsum blah blah blah.</p>
+        {/* <Slideshow></Slideshow> */}
         <Footer></Footer>
       </div>
     );

@@ -1,8 +1,16 @@
 .footer {
-  background-color: #ffc3d0;
+  background-color: #dfdfdf;
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
 }
 
-.container {
-  display: inline-block;
-  font-size: 1.2em;
+.icon {
+  font-size: 1em;
+  /* TODO: padding bottom  */
+  padding-top: 50px;
+  padding-left: 20px;
+  color: rgb(87, 86, 86);
 }
