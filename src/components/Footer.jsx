@@ -7,12 +7,12 @@ import {
   faLinkedin,
   faInstagram,
   faFacebookSquare,
-  faYoutube
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { faFileAlt, faCopyright } from "@fortawesome/free-regular-svg-icons";
 
 const right = {
-  textAlign: "right"
+  textAlign: "right",
 };
 
 export class Footer extends Component {
@@ -61,7 +61,7 @@ export class Footer extends Component {
             </a>
           </p>
           <p>
-            <FontAwesomeIcon icon={faCopyright} />
+            <FontAwesomeIcon icon={faCopyright} style={{ padding: 2 }} />
             2020 Adam Pikielny. Built using React :)
           </p>
         </div>

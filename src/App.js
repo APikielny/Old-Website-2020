@@ -8,6 +8,7 @@ import { Photo } from "./pages/Photo";
 import { Video } from "./pages/Video";
 import Home from "./pages/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
