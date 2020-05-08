@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 
 const right = {
-  textAlign: "right"
+  textAlign: "right",
 };
 
 export class Menu extends Component {

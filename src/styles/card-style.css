@@ -5,6 +5,7 @@
 
 .card {
   width: 20rem;
+  background-color: #4f00ce !important;
 }
 
 .card:hover {
