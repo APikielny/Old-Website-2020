@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Menu } from "../components/Menu";
 import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
 // import { Card } from "../components/Card";
 import Cards from "../components/Cards";
 
@@ -11,7 +12,7 @@ export class Code extends Component {
   render() {
     return (
       <div>
-        <Menu></Menu>
+        <Header></Header>
         <Cards></Cards>
         {/* <CardColumns>
           <Card bg="dark">
