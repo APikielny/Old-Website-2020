@@ -17,8 +17,8 @@ export class Card extends Component {
         </div>
         <div className="card-body text-dark">
           <h4 className="card-title">{this.props.cardTitle}</h4>
-          <p className="card-test text-secindary">Description</p>
-          <a href="#" clasName="btn btn-outline-success">
+          <p className="card-test text-secondary">Description</p>
+          <a href="#" className="btn btn-outline-success">
             Link
           </a>
         </div>

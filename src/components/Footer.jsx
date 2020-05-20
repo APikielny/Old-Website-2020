@@ -23,7 +23,8 @@ export class Footer extends Component {
           <p>
             <a
               class="icon"
-              href="https://github.com/APikielny/Personal-Site/raw/master/src/assets/AdamPikielnyResume.pdf"
+              // href="https://github.com/APikielny/Personal-Site/raw/master/src/assets/AdamPikielnyResume.pdf"
+              href="https://github.com/APikielny.github.io/assets/AdamPikielnyResume.pdf"
               target="_blank"
             >
               <FontAwesomeIcon icon={faFileAlt} />

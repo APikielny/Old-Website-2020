@@ -12,9 +12,9 @@ export class Home extends Component {
     this.setState({ loading: false });
   }
   render() {
-    // if (this.state.loading) {
-    //   return <Loader></Loader>;
-    // }
+    if (this.state.loading) {
+      return <Loader></Loader>;
+    }
     return (
       <div>
         {/* <Menu></Menu> */}
