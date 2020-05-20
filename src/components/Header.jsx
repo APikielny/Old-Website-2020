@@ -38,13 +38,13 @@ export class Header extends Component {
           <a href="/" class="nav-item">
             About Me
           </a>
-          <a href="/code" class="nav-item">
+          <a href="/#/code" class="nav-item">
             Code
           </a>
-          <a href="/videos" class="nav-item">
+          <a href="/#/videos" class="nav-item">
             Videos
           </a>
-          <a href="/photos" class="nav-item">
+          <a href="/#/photos" class="nav-item">
             Photos
           </a>
           <span class="nav-indicator"></span>

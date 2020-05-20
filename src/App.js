@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Menu } from "./components/Menu";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import { Code } from "./pages/Code";
 import { Photo } from "./pages/Photo";
 import { Video } from "./pages/Video";
@@ -12,7 +12,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Switch>
           <Route exact path="/code" component={Code}></Route>
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/" component={Home} />
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
